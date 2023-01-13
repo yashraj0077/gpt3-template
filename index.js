@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 const configuration = new Configuration({
-  apiKey: "YOUR_API_KEY"
+  apiKey: "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"
 });
 const openai = new OpenAIApi(configuration);
 
